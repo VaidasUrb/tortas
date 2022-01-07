@@ -3,7 +3,12 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    background-color: #ff3d62;
+    background-color: rgb(254, 82, 68);
+    background: linear-gradient(
+        217deg,
+        rgba(254, 82, 68, 1) 46%,
+        rgba(255, 56, 105, 1) 78%
+    );
     vertical-align: top;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -58,11 +63,11 @@ nav > :first-of-type {
     padding: 5px 10px;
     border-radius: 5px;
     border-style: none;
-    background-color: #ff3d62;
+    background-color: #fff;
+    color: black;
     cursor: pointer;
 }
 
-.btn:hover {
-    background-color: #fff;
+.acount > a:hover {
     color: black;
 }
