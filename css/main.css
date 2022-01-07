@@ -1,0 +1,73 @@
+body,
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(254, 82, 68);
+    background: linear-gradient(
+        217deg,
+        rgba(254, 82, 68, 1) 46%,
+        rgba(255, 56, 105, 1) 78%
+    );
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conteiner-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav > a:hover {
+    color: black;
+}
+
+nav > :first-of-type {
+    text-decoration: underline;
+}
+
+.acount {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.acount > * {
+    color: #fff;
+}
+
+.acount > h5 {
+    margin: 0;
+}
+
+.acount > a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.acount > a:hover {
+    color: black;
+}
